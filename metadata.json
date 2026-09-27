@@ -1,0 +1,6 @@
+{
+  "name": "Nevo",
+  "description": "Nevo (New From Old) - AI-powered circular fashion lookbook to identify fabric, assess quality, and recommend custom upcycling, reselling, or donation pathways, integrated with Wakad communities.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

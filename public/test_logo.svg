@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 330" width="480" height="660">
+  <defs>
+    <style>
+      .bg { fill: #FAF7F2; rx: 16px; ry: 16px; }
+      .burgundy { fill: #821B3D; stroke: #821B3D; }
+      .burgundy-fill { fill: #821B3D; }
+      .burgundy-stroke { stroke: #821B3D; fill: none; }
+      .rose-line { stroke: #D9AAB7; stroke-width: 1.2; stroke-linecap: round; }
+      .leaf { fill: #488153; }
+      .serif-text { font-family: "Playfair Display", "Didot", "Bodoni MT", "Georgia", serif; font-weight: 700; fill: #821B3D; }
+      .sans-text { font-family: "Plus Jakarta Sans", "Inter", "Space Grotesk", sans-serif; font-size: 8.5px; font-weight: 700; letter-spacing: 0.22em; fill: #54444C; }
+    </style>
+  </defs>
+  
+  <!-- Subtle Cream Card Container matching exact image -->
+  <rect width="240" height="330" rx="16" fill="#FAF7F2" />
+  
+  <!-- ================= LADY SILHOUETTE & CORSET ================= -->
+  <!-- Vintage Hair Silhouette -->
+  <path d="M117 33 C113 33 107 36 104 42 C101 48 102 55 106 59 C108 61 106 66 103 69 C105 69 108 68 110 65 C113 60 115 54 116 48 C117 44 119 41 123 41 C127 41 127 45 125 48 C123 51 123 54 125 56 C127 54 129 50 128 45 C127 38 122 33 117 33 Z" fill="#821B3D" />
+  
+  <!-- Neck and Delicate Shoulders -->
+  <path d="M114 56 C111 63 107 72 101 81" stroke="#821B3D" stroke-width="1.3" fill="none" stroke-linecap="round" />
+  <path d="M125 56 C128 63 132 72 138 81" stroke="#821B3D" stroke-width="1.3" fill="none" stroke-linecap="round" />
+  
+  <!-- Outer Arms framing the torso -->
+  <path d="M101 81 C98 90 98 100 106 108" stroke="#821B3D" stroke-width="1.2" fill="none" stroke-linecap="round" />
+  <path d="M138 81 C141 90 141 100 133 108" stroke="#821B3D" stroke-width="1.2" fill="none" stroke-linecap="round" />
+  
+  <!-- Sweetheart Corset Bodice -->
+  <path d="M105 82 C108 80 114 83 119.5 86 C125 83 131 80 134 82 C137 90 134 102 130 108 C124 109 115 109 109 108 C105 102 102 90 105 82 Z" fill="#821B3D" />
+  
+  <!-- ================= CRINOLINE CAGE SKIRT ================= -->
+  <!-- Central Vertical Spine -->
+  <line x1="119.5" y1="108" x2="119.5" y2="228" stroke="#821B3D" stroke-width="1.2" />
+  
+  <!-- Radiating Cage Ribs -->
+  <!-- Inner Ribs -->
+  <path d="M117 108 L104 227" stroke="#821B3D" stroke-width="1.1" />
+  <path d="M122 108 L135 227" stroke="#821B3D" stroke-width="1.1" />
+  
+  <!-- Mid Ribs -->
+  <path d="M114 108 L86 225" stroke="#821B3D" stroke-width="1.1" />
+  <path d="M125 108 L153 225" stroke="#821B3D" stroke-width="1.1" />
+  
+  <!-- Wide Ribs -->
+  <path d="M111 108 L69 220" stroke="#821B3D" stroke-width="1.1" />
+  <path d="M128 108 L170 220" stroke="#821B3D" stroke-width="1.1" />
+  
+  <!-- Outer Bell Silhouette Contour Ribs -->
+  <path d="M108 108 C95 125 72 165 58 226" stroke="#821B3D" stroke-width="1.3" fill="none" stroke-linecap="round" />
+  <path d="M131 108 C144 125 167 165 181 226" stroke="#821B3D" stroke-width="1.3" fill="none" stroke-linecap="round" />
+  
+  <!-- Horizontal Hoop Tiers (Catenary arched tiers) -->
+  <!-- Tier 1 (High) -->
+  <path d="M85 152 Q119.5 163 154 152" stroke="#821B3D" stroke-width="0.9" fill="none" />
+  
+  <!-- Tier 2 (Middle with intersection beads) -->
+  <path d="M70 184 Q119.5 198 169 184" stroke="#821B3D" stroke-width="1" fill="none" />
+  <circle cx="119.5" cy="188.5" r="2.2" fill="#821B3D" />
+  <circle cx="104.5" cy="187" r="1.8" fill="#821B3D" />
+  <circle cx="134.5" cy="187" r="1.8" fill="#821B3D" />
+  <circle cx="89.5" cy="183.5" r="1.6" fill="#821B3D" />
+  <circle cx="149.5" cy="183.5" r="1.6" fill="#821B3D" />
+  
+  <!-- Tier 3 (Bottom Hem arc with nodes) -->
+  <path d="M58 226 Q119.5 240 181 226" stroke="#821B3D" stroke-width="1" stroke-dasharray="2 2" fill="none" />
+  <circle cx="119.5" cy="225" r="2.8" fill="#821B3D" />
+  <circle cx="119.5" cy="225" r="1.2" fill="#FAF7F2" />
+  <circle cx="104" cy="224" r="2.2" fill="#821B3D" />
+  <circle cx="135" cy="224" r="2.2" fill="#821B3D" />
+  
+  <!-- Hanging Garlands and Heart Ornaments on sides -->
+  <!-- Left Side Swag & Hearts -->
+  <path d="M56 146 Q70 170 60 205" stroke="#821B3D" stroke-width="0.9" fill="none" />
+  <!-- Heart / droplet charms -->
+  <path d="M55 146 C53 143 51 146 54 149 L55 150 L56 149 C59 146 57 143 55 146 Z" fill="#821B3D" transform="scale(1.3) translate(-14, -36)" />
+  <path d="M59 156 C57 153 55 156 58 159 L59 160 L60 159 C63 156 61 153 59 156 Z" fill="#821B3D" transform="scale(1.3) translate(-14, -37)" />
+  <path d="M58 200 C56 197 54 200 57 203 L58 204 L59 203 C62 200 60 197 58 200 Z" fill="#821B3D" transform="scale(1.4) translate(-13, -54)" />
+  <path d="M68 215 C66 212 64 215 67 218 L68 219 L69 218 C72 215 70 212 68 215 Z" fill="#821B3D" transform="scale(1.4) translate(-15, -57)" />
+  
+  <!-- Right Side Swag & Hearts -->
+  <path d="M183 146 Q169 170 179 205" stroke="#821B3D" stroke-width="0.9" fill="none" />
+  <path d="M184 146 C182 143 180 146 183 149 L184 150 L185 149 C188 146 186 143 184 146 Z" fill="#821B3D" transform="scale(1.3) translate(-44, -36)" />
+  <path d="M180 156 C178 153 176 156 179 159 L180 160 L181 159 C184 156 182 153 180 156 Z" fill="#821B3D" transform="scale(1.3) translate(-43, -37)" />
+  <path d="M181 200 C179 197 177 200 180 203 L181 204 L182 203 C185 200 183 197 181 200 Z" fill="#821B3D" transform="scale(1.4) translate(-46, -54)" />
+  <path d="M171 215 C169 212 167 215 170 218 L171 219 L172 218 C175 215 173 212 171 215 Z" fill="#821B3D" transform="scale(1.4) translate(-44, -57)" />
+  
+  <!-- Green Leaf Accent on Bottom-Left of Skirt -->
+  <g transform="translate(77, 226) rotate(-28)">
+    <path d="M0 0 C4 -7 10 -9 15 -7 C16 -1 12 6 0 0 Z" fill="#437F4F" />
+    <path d="M0 0 Q7 -4 14 -7" stroke="#2D5A35" stroke-width="0.6" fill="none" />
+  </g>
+  
+  <!-- ================= TYPOGRAPHY: N E V O ================= -->
+  <g transform="translate(119.5, 264)">
+    <!-- Letter N -->
+    <text x="-66" y="0" class="serif-text" font-size="28" letter-spacing="0.05em">N</text>
+    <!-- Letter E -->
+    <text x="-27" y="0" class="serif-text" font-size="28" letter-spacing="0.05em">E</text>
+    <!-- Letter V -->
+    <text x="9" y="0" class="serif-text" font-size="28" letter-spacing="0.05em">V</text>
+    <!-- Botanical Leaf on V -->
+    <g transform="translate(24, -22) rotate(15)">
+      <path d="M0 0 C3 -5 8 -6 11 -4 C12 0 9 5 0 0 Z" fill="#437F4F" />
+      <path d="M0 0 Q5 -3 10 -4" stroke="#2D5A35" stroke-width="0.5" fill="none" />
+    </g>
+    <!-- Letter O -->
+    <text x="44" y="0" class="serif-text" font-size="28" letter-spacing="0.05em">O</text>
+    <!-- Botanical Leaf on O -->
+    <g transform="translate(56, -24) rotate(22)">
+      <path d="M0 0 C3 -5 8 -6 11 -4 C12 0 9 5 0 0 Z" fill="#437F4F" />
+      <path d="M0 0 Q5 -3 10 -4" stroke="#2D5A35" stroke-width="0.5" fill="none" />
+    </g>
+  </g>
+  
+  <!-- ================= TAGLINE SECTION ================= -->
+  <!-- Top Rose Line -->
+  <line x1="52" y1="281" x2="187" y2="281" class="rose-line" />
+  
+  <!-- Tagline Text -->
+  <text x="119.5" y="293.5" text-anchor="middle" class="sans-text">— NEW FROM OLD —</text>
+  
+  <!-- Bottom Rose Line -->
+  <line x1="52" y1="303" x2="187" y2="303" class="rose-line" />
+</svg>
