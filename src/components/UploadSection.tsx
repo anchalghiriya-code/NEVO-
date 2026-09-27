@@ -304,7 +304,14 @@ export default function UploadSection({
         throw new Error(errJson.error || `Analysis failed with code ${response.status}`);
       }
 
-      const resData = await response.json();
+      const resText = await response.text();
+      let resData: any = {};
+      try {
+        resData = JSON.parse(resText);
+      } catch {
+        resData = {};
+      }
+
       if (resData.success && Array.isArray(resData.items)) {
         onAnalysisComplete(resData.items);
         setApiIndicator(resData.usingFallback ? 'fallback' : 'success');

@@ -1438,4 +1438,11 @@ async function startServer() {
   });
 }
 
-startServer();
+// In standard environments (AI Studio, local dev, Docker), launch HTTP listener.
+// In Vercel serverless environments, Vercel invokes the exported app instance directly.
+if (!process.env.VERCEL) {
+  startServer();
+}
+
+export { app };
+export default app;
